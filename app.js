@@ -9,7 +9,8 @@ $(document).ready(function() {
 		$('.inputBox').val('');
 		$('.fizzbuzz').empty();
 
-		if ( num !== NaN && num >= 1 && num <= 100) {
+		if ( num !== NaN && num >= 1 && num <= 100 && num % 1 == 0) {
+			// num % 1 == 0 checks to see if there is an input with a decimal.
 			// i is the index/counter, allows counting to start at 1 everytime.
 			// i++ will make function increment by 1.
       var i = 1
