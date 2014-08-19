@@ -27,7 +27,7 @@ $(document).ready(function() {
 				i++
 		  }
 		} else {
-			alert("Please type in a number between 1 and 100!");
+			alert("Please type in a whole number between 1 and 100!");
 		}
 });
 
