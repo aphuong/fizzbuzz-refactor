@@ -7,6 +7,7 @@ $(document).ready(function() {
 		// use +newNumber to change a string into an integer
 		var num = +newNumber
 		$('.inputBox').val('');
+		$('.fizzbuzz').empty();
 
 		if ( num !== NaN && num >= 1 && num <= 100) {
 			// i is the index/counter, allows counting to start at 1 everytime.
@@ -27,9 +28,6 @@ $(document).ready(function() {
 		} else {
 			alert("Please type in a number between 1 and 100!");
 		}
-		// adding this text to the end of the list
-		// if user does not reset, you can still see where the last list ended
-		$('.fizzbuzz').append('Thanks For Trying The FizzBuzz Refactor!!!');
 });
 
 	$('.resetButton').click(function(event) {
