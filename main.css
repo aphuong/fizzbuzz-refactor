@@ -1,0 +1,101 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+html {
+	width: 100%;
+	background-color: #D9FF95;
+}
+
+body {
+	font-family: Helvetica;
+	color: grey;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 40px;
+	background-color: #3CFFCC;
+	border: 2px dotted grey;
+}
+
+h3 {
+	text-align: center;
+}
+
+.instructions {
+	line-height: 30px;
+	text-align: center;
+}
+
+.numberInput {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.inputBox {
+	width: 200px;
+	height: 20px;
+}
+
+.button, .clearList {
+	background-color: #3CFFCC;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+
+.fizzbuzz {
+	margin-left: 20px;
+	line-height: 20px;
+	text-align: center;
+}
+
+.resetButton {
+	display: inline-block;
+}

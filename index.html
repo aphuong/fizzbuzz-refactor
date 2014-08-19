@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="main.css" type="text/css"/>
+	<meta charset="UTF-8">
+	<title>FizzBuzz Refactor</title>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="app.js"></script>
+</head>
+
+<body>
+	<h1>FizzBuzz Time!</h1>
+
+	<div class="instructions">
+		<h3>Enter a number between 1 - 100.</h3>
+		<h3>Your number will Fizz if it is divisible by 3, Buzz if it is divisible by 5.</h3>
+		<h3>Can you guess what'll happen if it's divisible by both 3 and 5?</h3>
+
+	</div>
+	
+	<form class="numberInput">
+		<input class="inputBox" type="text" name="number" placeholder="Type Number Here">
+		<input class="button" type="submit" value="Try It!">
+		<div class="resetButton">
+		  <button type="reset" class="clearList">Reset</button>
+	  </div>
+	 </form>
+
+	<h3>See the Fizz and Buzz from 1 to your number:</h3>
+	<ul class="fizzbuzz"></ul>
+
+
+</body>
+
+</html>
